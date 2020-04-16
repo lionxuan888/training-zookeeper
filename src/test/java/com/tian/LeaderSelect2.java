@@ -45,6 +45,8 @@ public class LeaderSelect2 {
                     }
                 })
                 .build();
+
+
         client.start();
         String path = "/aa";
 //        client.create().withMode(CreateMode.PERSISTENT).forPath(path, new String("fff").getBytes());
